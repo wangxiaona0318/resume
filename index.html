@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-webApp-app-capable" content="yes"/>
+    <meta name="apple-mobile-webApp-app-status-bar-style" content="black">
+    <title>王晓娜个人简历</title>
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<a style="display:none;position:absolute;top:0;left: 0;z-index:2000;box-sizing:border-box;padding-left:.2rem;width:100%;height: .5rem;line-height: .5rem; background: rgba(0,0,0,0.3);color: #FFF;"
+   href="javascript:;" id="goBack">返回主页</a>
+<script type="text/javascript">
+    ~function () {
+        function fn(str) {
+            var reg = /([^?=&#]+)=([^?=&#]+)/g,
+                    obj = {};
+            str.replace(reg, function () {
+                obj[arguments[1]] = arguments[2];
+            });
+            return obj;
+        }
+
+        var goBack = document.getElementById('goBack');
+        var obj = fn(window.location.href),
+                phone = obj['phone'];
+        if (phone) {
+            phone = decodeURIComponent(phone);
+            goBack.style.display = 'block';
+            goBack.onclick = function () {
+                window.location.href = phone;
+            };
+        }
+    }();
+</script>
+
+<section class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide pageFir" trueId="page1">
+            <img src="img/first3.png" alt="">
+            <img src="img/first2.png" alt="">
+            <img src="img/first1.png" alt="">
+            <img src="img/first4.png" alt="">
+
+            <p>王晓娜</p>
+
+            <p class="line"></p>
+
+            <p class="line"></p>
+        </div>
+
+        <div class="swiper-slide pageSec" trueId="page2">
+            <img src="img/second1.png" alt="">
+            <img src="img/second2.png" alt="">
+            <img src="img/second3.png" alt="">
+            <img src="img/second4.png" alt="">
+            <img src="img/syjpic.png" alt="">
+
+            <p class="title">基本信息</p>
+
+            <p class="title"></p>
+
+            <p class="line"></p>
+
+            <p class="line"></p>
+
+            <p class="info">
+                <span>姓名:王晓娜</span>
+                <span>学历:本科</span>
+                <span>专业:计算机科学与技术</span>
+                <span>毕业院校:河北科技师范学院</span>
+                <span>联系方式:13693525578</span>
+                <span>邮箱:1753764770@qq.com</span>
+            </p>
+
+        </div>
+        <div class="swiper-slide pageThr" trueId="page3">
+            <img src="img/third1.png" alt="">
+
+            <p>求职意向</p>
+
+            <p></p>
+
+            <p class="line"></p>
+
+            <p class="line"></p>
+
+            <p>前端工程师</p>
+        </div>
+        <div class="swiper-slide pageFour" trueId="page4">
+            <img src="img/four1.png" alt="">
+
+            <p>我的能力</p>
+
+            <p></p>
+
+            <p class="line"></p>
+
+            <p class="line"></p>
+            <img src="img/four2.png" alt="">
+            <img src="img/four2.png" alt="">
+            <img src="img/four2.png" alt="">
+
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <p>熟练掌握html+css布局,掌握HTML5+CSS3,以及响应式布局和webApp的开发</p>
+
+            <p>熟练掌握javascript,自己写过DOM、tween、Ajax库等,以及熟练掌握各种设计模式.熟练使用jQuery、AngularJS、reactJS、zepto、iScroll等类库以及框架</p>
+
+            <p>熟练使用nodeJS编写后台server,ajax,jsonp请求数据,对后台有一定的了解</p>
+        </div>
+
+        <div class="swiper-slide pageFive" trueId="page5">
+            <p>我的优势</p>
+
+            <p></p>
+
+            <p class="line"></p>
+
+            <p class="line"></p>
+
+            <p></p>
+
+            <div>
+                <img src="img/five2.png" alt="">
+                <span>兴趣</span>
+            </div>
+            <div>
+                <img src="img/five2.png" alt="">
+                <span>项目</span>
+            </div>
+            <div>
+                <img src="img/five2.png" alt="">
+                <span>自信</span>
+            </div>
+            <p>较强的学习能力，能够快速掌握新兴技术。希望找到一个好的公司、平台，更快的提高自己，更为公司带来自己的活力</p>
+
+            <p>有pc、手机端以及响应式页面的开发经验，较强的团队协调能力。自己也写过一些小型网页，移动端h5页面</p>
+
+            <p>关注互联网最新动态，对新兴科技、事物较感兴趣。一直游逛于各种手机论坛或者网站。喜欢音乐、跳舞、户外</p>
+        </div>
+        <div class="swiper-slide pageSix" trueId="page6">
+            <img src="img/six1.png" alt="">
+
+            <p>感谢观看</p>
+
+            <p>THANK YOU</p>
+        </div>
+    </div>
+</section>
+<section class="arrow">
+    <img src="img/up40.png" alt="">
+</section>
+<section class="audio">
+    <audio class="audioMp3" src="audioFile/ALWAYS.mp3" loop preload="none"/>
+</section>
+</body>
+<script src="js/zepto.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/swiper.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/index.js"></script>
+</html>
